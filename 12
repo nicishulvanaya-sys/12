@@ -1,0 +1,8 @@
+  private void resetForm() {
+    txtKodeBarang.setText("");
+    txtNamaBarang.setText("");
+    txtHarga.setText("");
+    txtStok.setText("");
+    idTerpilih = -1;
+    tblBarang.clearSelection();
+}
